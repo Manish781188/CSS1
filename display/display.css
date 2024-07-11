@@ -1,0 +1,16 @@
+div{
+/*block */
+    background-color: aqua;
+    height: 50px;
+    width: 200px;
+    display: inline-block;
+}
+span{
+    /*inline*/
+    background-color: blue;
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    /* display: none;  */
+    /* visibility: hidden; */
+}

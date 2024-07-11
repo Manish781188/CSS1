@@ -1,0 +1,13 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    transition-duration: 4000ms;
+    transition-property: background-color;
+    
+}
+ div:hover{
+    /* transition-duration: 4000ms; */
+    background-color: rgb(64, 11, 133);
+    border-radius: 50%;
+} 

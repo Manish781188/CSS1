@@ -1,0 +1,51 @@
+.one{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+div:nth-of-type(1){
+    background-color: aqua;
+    /* position: static; */
+    /* top : 50px; */
+}
+div:nth-of-type(2){
+    background-color: rgb(0, 255, 0);
+    /* position: absolute; */
+     /* top : 5px;  */
+} 
+div:nth-of-type(3){
+     background-color: rgb(170, 108, 221);
+      position: relative;
+    top:5px;   
+    
+
+} 
+/* DAy 2*/
+.container{
+    height: 1500px;
+    padding: 100px;
+    border: 10px solid gold;
+}
+.box{
+    border: 5px solid green;
+    padding: 10px;
+    background-color: aqua;
+    position: sticky;
+    top: 30px;
+}
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    /* position: relative;
+   top: 10px; */
+}
+.child{
+    height: 150px;
+    width: 150px;
+    background-color:goldenrod;
+    position: absolute;
+    /* position: static; */
+    /* position: fixed; */
+    left: 5px; 
+}
